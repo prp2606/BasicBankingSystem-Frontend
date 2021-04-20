@@ -1,6 +1,5 @@
 const basicBankingAPI =
-  "https://basic-banking-system-sparks-f.herokuapp.com/sparksfoundation/";
-// const basicBankingAPI = "http://localhost:7200/sparksfoundation";
+const basicBankingAPI = "http://localhost:7200/sparksfoundation";
 
 export const getAllCustomers = () => {
   return fetch(`${basicBankingAPI}/customer/allcustomers`, {
