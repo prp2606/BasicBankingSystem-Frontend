@@ -1,5 +1,8 @@
 ## Basic Banking System
 
+Live site is running on :- https://basic-banking-system.netlify.app/
+Backend Code is here :-https://github.com/prp2606/BasicBankingSystem-Backend/
+
 Welcome! This website is the Basic Banking System, developed to showcase the basic working of customers and transactions management.
 
 Work Flow - Home Page → View All Customers → Select and View One Customer → Transfer Money → Select Customer To Transfer → View All Customers
@@ -11,5 +14,3 @@ In customer details, you can see the Name, Email, Address, Initial balance, Curr
 In transaction page, you have to fill the transaction amount, select the beneficiary account and enter an ADMIN CODE. ADMIN CODE you need to fill in is BBS_Admin@123. And hola! Transaction is done. You can cross check whether the transaction is done or not by checking ALL TRANSACTIONS page and transaction history in both customer's detail page :)
 
 All use cases are covered and implemented for doing transaction. Eg: Transaction amount = 0 is not allowed, Transaction in same customer's account is not allowed, Transaction with invalid ADMIN CODE is not allowed, Amount to be transferred cannot be greater than current balance etc.
-
-Live site is running on :- https://basic-banking-system.netlify.app/
