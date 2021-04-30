@@ -1,4 +1,4 @@
-const basicBankingAPI =
+
 const basicBankingAPI = "http://localhost:7200/sparksfoundation";
 
 export const getAllCustomers = () => {
